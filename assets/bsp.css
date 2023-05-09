@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-image: url(./bg1.jpg);
+   /* background-repeat: repeat; */
+   background-repeat: no-repeat;
+   /* background-repeat: repeat-x; */
+   /* background-repeat: repeat-y; */
+   /* object-fit: cover; */
+   /* background-position: right; */
+   /* background-position: left; */
+   /* background-position: center; */
+   background-position: bottom;
+   background-attachment: fixed;
+   background-size: cover;
+   /* background-size: contain; */
+   /* background-size: auto; */
+   background-clip: border-box;
+}
+h1{
+    text-align: center;
+}
+p.border1{
+    border-style: dotted;
+}
+p.border2{
+    border-style: solid;
+}
+p.border3{
+    border-style: dashed;
+}
+p.border4{
+    border-style: double;
+}
+p.border5{
+    border-style: groove;
+}
+p.border6{
+    border-style: ridge;
+}
+p.border7{
+    border-style: inset;
+}
+p.border8{
+    border-style:outset;
+}
+p.border9{
+    border-style: dotted;
+}
+p.border1{
+    border-style: dotted dashed solid double;
+}
+p.border10{
+    border-style: none;
+}
+p.border11{
+    border-style: hidden;
+}
